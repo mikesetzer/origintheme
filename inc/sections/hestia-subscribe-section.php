@@ -44,6 +44,7 @@ if ( ! function_exists( 'hestia_subscribe' ) ) :
 					<?php if ( ! empty( $hestia_subscribe_subtitle ) || is_customize_preview() ) : ?>
 						<h5 class="subscribe-description"><?php echo wp_kses_post( $hestia_subscribe_subtitle ); ?></h5>
 					<?php endif; ?>
+						<h6 class="subscribe-subdescriptions">The future is #Sungrown.</h6>
 					</div>
 				</div>
 				<?php if ( is_active_sidebar( 'subscribe-widgets' ) ) : ?>

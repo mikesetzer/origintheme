@@ -38,7 +38,7 @@ if ( ! function_exists( 'hestia_big_title' ) ) :
 					if ( ! empty( $hestia_big_title_background ) || ! empty( $hestia_big_title_title ) || ! empty( $hestia_big_title_text ) || ( ! empty( $hestia_big_title_button_text ) && ! empty( $hestia_big_title_button_link ) ) ) {
 					?>
 						<div class="item active">
-							<div class="page-header header-filter" 
+							<div class="page-header header-filter"
 							<?php
 							if ( ! empty( $hestia_big_title_background ) ) {
 								echo 'style="background-image: url(' . esc_url( $hestia_big_title_background ) . ')"';}
@@ -55,6 +55,7 @@ if ( ! function_exists( 'hestia_big_title' ) ) :
 								<div class="container">
 									<div class="row">
 										<div class="col-md-8 col-md-offset-2 text-center">
+											<img class="big_title_logo_origin" src="http://origincannabis.com/wp-content/uploads/2017/08/White-Flower-Line-Font.png" />
 											<?php if ( ! empty( $hestia_big_title_title ) ) { ?>
 												<h1 class="hestia-title"><?php echo wp_kses_post( $hestia_big_title_title ); ?></h1>
 											<?php } ?>
