@@ -1,3 +1,6 @@
+# This Repo #
+This is a modified version of the Hestia theme from ThemeIsle. No theme license or activation files are included in this repository.
+
 # Hestia #
 Hestia is a modern WordPress theme for professionals. It fits creative business, small businesses, startups, corporate businesses, online agencies and firms, portfolios, e-commerce (WooCommerce), and freelancers. It has a multipurpose one-page design, widgetized footer, and a clean look. The theme is responsive, WPML, Retina ready, SEO friendly, and uses Material Kit for design.
 # Installation #
